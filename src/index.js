@@ -4,8 +4,7 @@ module.exports = function reverse (n) {
     let arr = str.split('');
     
 
-    for(let i = str.length-1; i >= 0; i--) {
-        let temp = arr[i];
+    for(let i = str.length-1; i >= 0; i--) { 
         reversedArr.push(arr[i]);
     }
 
